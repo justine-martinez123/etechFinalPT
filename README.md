@@ -44,3 +44,7 @@ day 6 - 0.9 patch
 day 6 - 1.0 patch
 
 - work finished
+
+day 6 - 1.1 patch
+
+- forgot to commit 0.4 changes to index.html and index.css, fixed
