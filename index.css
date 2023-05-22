@@ -1,25 +1,3 @@
-/*Irrelevant code (atm)
-
-#wrapper {
-    margin-left:auto;
-    margin-right:auto;
-    width:960px;
-}
-
-@media screen and (min-width: 12px) {
-    div.responsive{
-      font-size: 20px;
-    }
-  }
-
-@media screen and (max-width: 600px) {
-    div.example {
-      font-size: 30px;
-    }
-  }
-  
-*/
-
 /*Header Image*/
 
 header{
@@ -37,7 +15,11 @@ header{
     background-repeat:no-repeat;
     background-size:cover;
     position:absolute;
-    margin:0% 0% 0% 0%;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100%;
+    max-width: 100vw;
+    padding: 0% 0% 0% 0%;
 }
 
 /*Navbar*/
@@ -135,10 +117,6 @@ div.gallery{
     width:350px;
     height:290px;
 }
-
-div.gallery:hover{
-    border: 2px solid white;
-  }
   
 div.gallery img{
     width: 150px;
